@@ -76,6 +76,30 @@ To prevent your PR from being unmergeable:
 
 ---
 
+## Good Submission Practices
+
+To keep the repository clean and organized, please follow these guidelines:
+
+- **Only add your exercise folders** (e.g., `EX-1`, `EX-2`, etc.) inside your designated folder.  
+  ❌ Do **NOT** include extra folders like `startcode`, `ex1`, `ex2`, `.DS_Store`, `.zip` files, or any unrelated files.
+- For each exercise, if you need to answer questions, **create a Markdown file** named `answer.md` inside the corresponding exercise folder (e.g., `EX-1/answer.md`).  
+  ❌ Do **NOT** submit answers as PDFs, Word documents, or other formats.
+- **Keep your folder structure and file naming consistent** for easier review and feedback.
+- Double-check that your submission only contains the required files and folders before committing.
+
+**Example of a correct submission structure:**
+```
+W1/g1/SE323253/
+  ├── EX-1/
+  │     ├── answer.md
+  │     └── (your code files)
+  └── EX-2/
+        ├── answer.md
+        └── (your code files)
+```
+
+---
+
 ## Feedback Process
 
 - Teachers will review your PR and leave comments.

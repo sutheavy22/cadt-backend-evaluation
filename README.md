@@ -37,6 +37,11 @@ W1/g1/SE323253/
    git checkout -b week1-SE323253
    ```
 4. **Add your assignment** inside your designated folder.
+
+   > **⚠️ Important:**  
+   > Do **NOT** commit or push your `node_modules` folder or other dependencies.  
+   > Make sure your `.gitignore` file includes `node_modules/`.
+
 5. **Commit and push** your changes:
    ```bash
    git add .
